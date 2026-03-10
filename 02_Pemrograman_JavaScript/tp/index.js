@@ -1,21 +1,14 @@
-function fizzBuzz(arr) {
-    if (!Array.isArray(arr)) {
-        return "Input tidak valid";
+const arr1 = [1, -2, 3, -4, 5, -6];
+
+function mulOfArray(arr) {
+    let result = 1;
+    for (let i = 0; i < arr.length; i = i + 1) {
+       if (arr[i] >= 0) {
+           result = result * arr[i];
+       }
     }
-
-    const result = arr.map(num => {
-        if (num % 14 === 0) {
-            return "FizzBuzz";
-        } else if (num % 2 === 0) {
-            return "Fizz";
-        } else if (num % 7 === 0) {
-            return "Buzz";
-        } else {
-            return num.toString();
-        }
-    });
-
-    return result.join(' ');
+    
+    return result;
 }
-
-module.exports = fizzBuzz;
+const arr1Result = mulOfArray(arr1);
+console.log(arr1Result);
