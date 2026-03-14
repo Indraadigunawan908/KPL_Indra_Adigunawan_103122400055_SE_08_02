@@ -1,0 +1,33 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+.main-wrapper {
+    text-align: center;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.kotak-input {
+    display: block;
+    margin: 15px auto;
+    font-family: 'Inconsolata', monospace;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+.kotak-input:focus {
+    border-color: coral;
+}
