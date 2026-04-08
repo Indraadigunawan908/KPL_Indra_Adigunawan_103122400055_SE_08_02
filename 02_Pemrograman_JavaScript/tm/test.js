@@ -8,7 +8,7 @@ try {
     assert.strictEqual(fizzBuzz([1, 68, 83, 91, 97]), "1 Fizz 83 Buzz 97", "Tes 2 gagal lolos");
     console.log("✅ Tes 2 berhasil");
 
-    assert.strictEqual(fizzBuzz([-2, -1, 0, 1, 2]), "Fizz -1 FizzBuzz 1 Fizz", "Tes 3 gagal lolos");
+    assert.strictEqual(fizzBuzz([-2, -1, 0, 1, 2]), "Fizz -1 FizzBuzz 1 Fizz", "Tes 2 gagal lolos");
     console.log("✅ Tes 3 berhasil");
 
     assert.strictEqual(fizzBuzz([-16]), "Fizz", "Tes 4 gagal lolos");

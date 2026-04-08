@@ -1,21 +1,21 @@
-function fizzBuzz(arr) {
-    if (!Array.isArray(arr)) {
+function fizzBuzz(params) {
+    if (!Array.isArray(params)) {
         return "Input tidak valid";
     }
 
-    const result = arr.map(num => {
+    let result = params.map(num => {
         if (num % 14 === 0) {
             return "FizzBuzz";
-        } else if (num % 2 === 0) {
-            return "Fizz";
         } else if (num % 7 === 0) {
             return "Buzz";
+        } else if (num % 2 === 0) {
+            return "Fizz";
         } else {
-            return num.toString();
+            return num;
         }
     });
 
-    return result.join(' ');
+    return result.join(" ");
 }
 
 module.exports = fizzBuzz;
