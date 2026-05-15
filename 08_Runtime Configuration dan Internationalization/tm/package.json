@@ -1,0 +1,9 @@
+{
+  "name": "tm_08",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
