@@ -1,0 +1,11 @@
+{
+  "name": "hitung-teks",
+  "version": "1.0.0",
+  "description": "Pustaka utilitas untuk menghitung jumlah huruf dan jumlah kata dalam sebuah string.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
